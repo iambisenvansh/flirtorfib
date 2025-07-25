@@ -40,3 +40,32 @@ git clone https://github.com/your-username/flirtorfib.git
 cd flirtorfib
 npm install
 npm run dev
+
+Folder Structure :
+
+
+love-games/
+├── node_modules/               # Installed packages
+├── public/
+│   ├── res/                    # Public images like icons, logos
+│   └── favicon.ico            # App icon
+├── src/
+│   ├── assets/                # Static assets like SVGs, styles
+│   │   ├── react.svg
+│   │   └── styles.css         # Main app CSS
+│   ├── components/            # Modular UI components
+│   │   ├── CategoryScreen.jsx
+│   │   ├── Footer.jsx
+│   │   └── StatementScreen.jsx
+│   ├── App.jsx                # Root app logic
+│   ├── main.jsx               # React DOM renderer
+│   ├── nhie.json              # Data file (Never Have I Ever statements)
+│   ├── script.js              # Game or logic-related JS (optional)
+│   └── style.css              # Additional or global CSS
+├── index.html                 # Root HTML file
+├── package.json               # Project metadata & dependencies
+├── vite.config.js             # Vite build configuration
+├── .gitignore                 # Git ignore rules
+├── eslint.config.js           # ESLint rules (if used)
+└── README.md                  # Project description
+
